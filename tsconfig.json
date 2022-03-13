@@ -1,6 +1,17 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@css/*": ["stitches/*"],
+      "@anims/*": ["animations/*"],
+      "@pages/*": ["pages/*"],
+      "@hooks/*": ["hooks/*"],
+      "@typings/*": ["typings/*"],
+      "@lib/*": ["lib/*"],
+      "@content/*": ["content/*"]
+    },
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -13,6 +24,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "typeRoots": ["typings"],
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

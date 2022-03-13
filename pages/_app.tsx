@@ -1,8 +1,26 @@
-import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import { ThemeProvider } from 'next-themes'
+import globalStyle from '@css/global.style'
+
+import light from '@css/light'
+
+const Moonport = ({ Component, pageProps }: AppProps) => {
+  globalStyle()
+
+  return (
+    <ThemeProvider
+      attribute='class'
+      defaultTheme='dark'
+      enableColorScheme={false}
+      value={{
+        dark: 'dark',
+        light: light.className,
+      }}
+    >
+      <Component {...pageProps} />
+    </ThemeProvider>
+  )
 }
 
-export default MyApp
+export default Moonport
