@@ -18,6 +18,43 @@ export const Grid = styled(motion.div, {
   },
 })
 
+export const NonGrid = styled(motion.div, {
+  display: 'block',
+  gap: '2vw',
+  width: '70vw',
+  marginTop: 100,
+  '@iPad': {
+    width: '90vw',
+  },
+  '@iPadPro': {
+    width: '90vw',
+  },
+})
+
+export const SingleTestimonial = styled(motion.a, {
+  margin:"auto",
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'flex-start',
+  height: 225,
+  background: '$fg',
+  color: '$fgText',
+  width: '22vw',
+  padding: 30,
+  borderRadius: 20,
+  textDecoration: 'none',
+  '@iPadPro': {
+    width: '28vw',
+    padding: 20,
+  },
+  '@iPad': {
+    padding: 30,
+    width: '90vw',
+    marginTop: 20,
+  },
+})
+
 export const Testimonial = styled(motion.a, {
   display: 'flex',
   flexDirection: 'column',

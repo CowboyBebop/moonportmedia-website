@@ -6,14 +6,14 @@ import { FadeContainer, Fade, FadeReverse, Image } from '@anims/index'
 
 const Testimonials: React.FC = () => {
   return (
-    <S.Grid
+    <S.NonGrid
       variants={FadeContainer}
       initial='hidden'
       animate='visible'
       id='testimonials'
     >
       {testimonials.map((testimonial, index) => (
-        <S.Testimonial variants={Fade} key={index} href={testimonial.link}>
+        <S.SingleTestimonial variants={Fade} key={index} href={testimonial.link}>
           <S.Box parent>
             <S.Image src={testimonial.image} variants={Image} />
             <S.Box>
@@ -24,9 +24,9 @@ const Testimonials: React.FC = () => {
             </S.Box>
           </S.Box>
           <S.Text variants={Fade}>{testimonial.text}</S.Text>
-        </S.Testimonial>
+        </S.SingleTestimonial>
       ))}
-    </S.Grid>
+    </S.NonGrid>
   )
 }
 
