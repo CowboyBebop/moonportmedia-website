@@ -50,7 +50,7 @@ const Calendar: React.FC = () => {
           />
         ) : (
           <InlineWidget
-            url='https://calendly.com/moonportmedia/youtube-chat'
+            url='https://calendly.com/ryker-yt/youtube-consultation'
             pageSettings={{
               backgroundColor: 'E5E8EC',
               hideEventTypeDetails: false,
