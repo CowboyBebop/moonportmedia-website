@@ -28,7 +28,7 @@ const Calendar: React.FC = () => {
         <Arrow />
       </S.Title>
       
-      <div styles={{display: 'flex'}}>
+      <div style={{display: 'flex'}}>
 
         <motion.div variants={Fade}>
           {dark ? (
