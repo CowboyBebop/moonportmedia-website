@@ -27,7 +27,53 @@ const Calendar: React.FC = () => {
         Schedule an <span>Appointment</span>
         <Arrow />
       </S.Title>
-      <motion.div variants={Fade}>
+      
+      <div class="flex-container" styles={{display: 'flex'}}>
+
+        <motion.div variants={Fade}>
+          {dark ? (
+            <InlineWidget
+              url='https://calendly.com/ryker-yt/youtube-consultation'
+              pageSettings={{
+                backgroundColor: '1e293b',
+                hideEventTypeDetails: false,
+                hideLandingPageDetails: false,
+                hideGdprBanner: true,
+                primaryColor: '0ea5e9',
+                textColor: 'c6d1dc',
+              }}
+              styles={{
+                width: '70vw',
+                minWidth: 320,
+                height: 700,
+                overflow: 'hidden !important',
+                borderRadius: 20,
+                padding: 0,
+              }}
+            />
+          ) : (
+            <InlineWidget
+              url='https://calendly.com/ryker-yt/youtube-consultation'
+              pageSettings={{
+                backgroundColor: 'E5E8EC',
+                hideEventTypeDetails: false,
+                hideLandingPageDetails: false,
+                hideGdprBanner: true,
+                primaryColor: '0ea5e9',
+                textColor: '0F172A',
+              }}
+              styles={{
+                width: '70vw',
+                minWidth: 320,
+                height: 700,
+                overflow: 'hidden !important',
+                borderRadius: 20,
+                padding: 0,
+              }}
+            />
+          )}
+        </motion.div>
+        <motion.div variants={Fade}>
         {dark ? (
           <InlineWidget
             url='https://calendly.com/ryker-yt/youtube-consultation'
@@ -69,7 +115,8 @@ const Calendar: React.FC = () => {
             }}
           />
         )}
-      </motion.div>
+        </motion.div> 
+      </div>
     </S.Container>
   )
 }
