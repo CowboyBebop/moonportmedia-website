@@ -30,7 +30,7 @@ const Calendar: React.FC = () => {
       <motion.div variants={Fade}>
         {dark ? (
           <InlineWidget
-            url='https://calendly.com/moonportmedia/youtube-chat'
+            url='https://calendly.com/ryker-yt/youtube-consultation'
             pageSettings={{
               backgroundColor: '1e293b',
               hideEventTypeDetails: false,
