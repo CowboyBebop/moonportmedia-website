@@ -37,7 +37,7 @@ The homepage uses a lazy-loaded Three.js sculpture with pointer interaction, a p
 
 ## Deployment
 
-Use the existing Moonport Vercel project and its existing domains. `vercel.json` preserves Next.js, selects `out/`, and redirects `/coming-soon` to `/memory-books/`. It does not link to or create a different project.
+Use the existing Moonport Vercel project and its existing domains. `vercel.json` preserves the Next.js framework preset and redirects `/coming-soon` to `/memory-books/`. Vercel detects the static export from `next.config.js`; do not override its Output Directory with `out`, because its Next.js adapter first needs the manifests in `.next`. It does not link to or create a different project.
 
 Before publishing, confirm the company email is monitored and the written engagement/refund practices reflect the company's actual commitments. Website content alone does not establish payment-provider approval; requested business documents are supplied privately.
 
