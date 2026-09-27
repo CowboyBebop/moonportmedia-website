@@ -5,7 +5,7 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/coming-soon",
+      "source": "/coming-soon/",
       "destination": "/memory-books/",
       "permanent": true
     }
