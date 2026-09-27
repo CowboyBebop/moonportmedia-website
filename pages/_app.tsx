@@ -1,26 +1,10 @@
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
+import "@fontsource/instrument-sans/400.css";
+import "@fontsource/instrument-sans/500.css";
+import "@fontsource/instrument-sans/600.css";
+import "@fontsource/newsreader/400.css";
+import "../styles/site.css";
 
-import { ThemeProvider } from 'next-themes'
-import globalStyle from '@css/global.style'
-
-import light from '@css/light'
-
-const Moonport = ({ Component, pageProps }: AppProps) => {
-  globalStyle()
-
-  return (
-    <ThemeProvider
-      attribute='class'
-      defaultTheme='dark'
-      enableColorScheme={false}
-      value={{
-        dark: 'dark',
-        light: light.className,
-      }}
-    >
-      <Component {...pageProps} />
-    </ThemeProvider>
-  )
+export default function Moonport({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
 }
-
-export default Moonport
