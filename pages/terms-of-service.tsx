@@ -6,7 +6,7 @@ export default function Terms() {
     <PolicyLayout
       title="Terms of Service"
       path="/terms-of-service"
-      intro="Terms for using this website and engaging Moonport Media LLC for services."
+      intro="Terms for using this website, engaging Moonport Media LLC for services, and ordering Personalized Memory Books."
     >
       <section>
         <h2>1. Our business and this website</h2>
@@ -43,8 +43,12 @@ export default function Terms() {
         <p>
           Fees are quoted individually. Any applicable taxes, third-party costs,
           deposits, or recurring charges must be identified in the written
-          agreement. Payments are requested under the agreed payment schedule;
-          no payments are collected through this website.
+          agreement. Payments are requested under the agreed payment schedule.
+        </p>
+        <p>
+          Where online payment is offered, it is processed by a licensed
+          payment service provider over a secure connection. We do not receive
+          or store full payment-card details.
         </p>
         <p>
           Services and deliverables are provided remotely using the
@@ -77,10 +81,19 @@ export default function Terms() {
           their applicable ownership and licence terms.
         </p>
         <p>
-          Any confidentiality obligations, access requirements, and handling of
-          client materials should be addressed in the project agreement. Please
-          do not send sensitive material in an initial enquiry unless we have
-          agreed how it will be handled.
+          We keep confidential all non-public information, materials, and
+          personal data that clients and customers share with us. We use it
+          only to provide the requested service or product, share it only with
+          staff and service providers who need it for that purpose and are
+          bound to protect it, and do not disclose it to third parties unless
+          required by law. This includes photographs, recordings, and stories
+          provided for Memory Books. Personal data is handled as described in
+          our <Link href="/privacy-policy">Privacy Policy</Link>.
+        </p>
+        <p>
+          Additional confidentiality obligations can be agreed in the project
+          agreement. Please do not send sensitive material in an initial
+          enquiry unless we have agreed how it will be handled.
         </p>
       </section>
       <section>
@@ -109,20 +122,55 @@ export default function Terms() {
       <section>
         <h2>8. Personalized Memory Books</h2>
         <p>
-          Personalized Memory Books is a consumer product service in
-          development. It is clearly marked “Coming Soon” and is not available
-          for orders, pre-orders, or purchase. We are not accepting payments or
-          customer material for it.
+          Personalized Memory Books are printed keepsake books created from
+          photographs and recollections supplied by the customer. The price,
+          format, number of copies, and shipping cost are shown before payment.
+          A contract is formed when payment is completed and we confirm the
+          order by email.
         </p>
         <p>
-          Descriptions of its planned features, printing, and international
-          shipping are statements of intention, not an offer for sale. Pricing,
-          destinations, delivery details, and product-specific purchase,
-          privacy, and cancellation terms will be provided before launch.
+          You must own, or have permission to use, the photographs, recordings,
+          and stories you provide. We arrange them faithfully and do not invent
+          family events or details. You will receive a digital proof to review;
+          the book is printed only after you approve it. Printing and shipping
+          are described in our{" "}
+          <Link href="/delivery-policy">Delivery Policy</Link>, and
+          cancellations and refunds in our{" "}
+          <Link href="/refund-policy">Refund / Cancellation Policy</Link>.
         </p>
       </section>
       <section>
-        <h2>9. Website use and updates</h2>
+        <h2>9. Registration on the website</h2>
+        <p>
+          You can browse this website without registering. If an account or
+          order registration is required to place an order or upload materials,
+          you must provide accurate information, keep your login details
+          confidential, and tell us promptly about any unauthorised use of your
+          account. You must be at least 18 years old, or have the consent of a
+          parent or guardian, to register or place an order. We may suspend an
+          account that is used unlawfully or in breach of these terms. You may
+          ask us to close your account at any time by email.
+        </p>
+      </section>
+      <section>
+        <h2>10. Rights provided by law</h2>
+        <p>
+          These terms are governed by the legislation of Georgia, including the
+          Law of Georgia on Electronic Commerce and the Law of Georgia on
+          Consumer Rights Protection. Consumers keep all rights granted to them
+          by mandatory law, including rights relating to information before
+          purchase, defective goods, and refunds; nothing in these terms limits
+          those rights.
+        </p>
+        <p>
+          We will try to resolve any complaint amicably by email first. Disputes
+          that cannot be resolved this way are settled by the competent courts
+          of Georgia, unless mandatory law gives a consumer the right to bring a
+          claim elsewhere.
+        </p>
+      </section>
+      <section>
+        <h2>11. Website use and updates</h2>
         <p>
           You may use this website for lawful business enquiries and
           information. You must not attempt to disrupt it, gain unauthorised

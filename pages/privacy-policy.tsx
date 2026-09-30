@@ -52,8 +52,9 @@ export default function Privacy() {
         <p>
           This website does not use advertising trackers or analytics cookies.
           Fonts and visual assets are served with the website. The contact links
-          open your own email application; there is no contact form, checkout,
-          account registration, or customer file-upload facility on this site.
+          open your own email application. Where ordering, account, or upload
+          features are provided, only cookies strictly necessary for them are
+          used.
         </p>
         <p>
           Hosting infrastructure may process technical data or use security
@@ -106,13 +107,27 @@ export default function Privacy() {
         </p>
       </section>
       <section>
-        <h2>8. Memory Books and future changes</h2>
+        <h2>8. Memory Books customer information</h2>
         <p>
-          Personalized Memory Books is in development. We are not currently
-          collecting customer photos, memories, or stories for this product, and
-          we are not accepting orders or payments. Product-specific privacy
-          information will be provided before submissions open.
+          To make a Memory Book we process the customer’s name, email, delivery
+          address, order details, and the photographs, voice recordings, and
+          stories they provide. We use this information only to create, print,
+          and deliver the book and to support the order. It is kept
+          confidential, is never published or used for advertising without
+          separate permission, and is shared only with the service providers
+          needed to fulfil the order, such as AI transcription and layout
+          tools, our print and shipping partner, and the payment provider.
+          Payment-card details are entered with the payment provider and are
+          not stored by us.
         </p>
+        <p>
+          Customer materials are deleted within 90 days of delivery unless the
+          customer asks us to keep them for reprints. You can ask us to delete
+          them sooner at any time.
+        </p>
+      </section>
+      <section>
+        <h2>9. Changes to this policy</h2>
         <p>
           We may update this policy as our website or services change. The
           latest version and its update date will be published on this page.

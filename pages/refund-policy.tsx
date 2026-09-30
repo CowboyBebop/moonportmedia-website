@@ -6,13 +6,14 @@ export default function Refunds() {
     <PolicyLayout
       title="Refund / Cancellation Policy"
       path="/refund-policy"
-      intro="How to request a cancellation, rescheduling, or a refund for an agreed service engagement."
+      intro="How to request a cancellation or a refund for our services and Personalized Memory Books, and when refunds are made."
     >
       <section>
         <h2>1. Scope of this policy</h2>
         <p>
           This policy applies to digital, creative, and consulting services
-          provided by Moonport Media LLC. Services are individually scoped, so
+          provided by Moonport Media LLC, and to Personalized Memory Books
+          (see section 8). Services are individually scoped, so
           your written project agreement sets the specific cancellation,
           rescheduling, payment, and refund terms. Those terms apply subject to
           applicable law.
@@ -95,12 +96,55 @@ export default function Refunds() {
         </p>
       </section>
       <section>
-        <h2>8. Memory Books is not on sale</h2>
+        <h2>8. Personalized Memory Books</h2>
         <p>
-          Personalized Memory Books is coming soon. No orders, pre-orders, or
-          payments are being accepted. Product-specific cancellation,
-          production, delivery, return, and refund terms will be published
-          before the service becomes available to purchase.
+          Memory Books are made to order from each customer’s own photographs
+          and stories, so the following terms apply:
+        </p>
+        <ul>
+          <li>
+            <strong>Before you approve the proof:</strong> you may cancel the
+            order by email for a full refund.
+          </li>
+          <li>
+            <strong>After you approve the proof:</strong> the book is sent to
+            print and, because it is personalized, it cannot be cancelled or
+            returned for a change of mind.
+          </li>
+          <li>
+            <strong>Defective, damaged, or incorrectly printed books:</strong>{" "}
+            report the problem within 14 days of delivery with your order
+            number and photographs. We will reprint and reship the book at no
+            cost, or refund it in full if you prefer.
+          </li>
+          <li>
+            <strong>Lost shipments:</strong> if a tracked parcel is confirmed
+            lost by the carrier, we will reship the order or refund it in full.
+          </li>
+          <li>
+            <strong>Errors in approved content:</strong> spelling or content
+            errors present in a proof you approved are not treated as defects.
+          </li>
+        </ul>
+        <p>
+          Shipping charges are refunded together with the order when the book
+          is cancelled before printing, or is defective, damaged, or lost.
+        </p>
+      </section>
+      <section>
+        <h2>9. Refund method and time frame</h2>
+        <p>
+          Approved refunds are confirmed by email and issued within 10 working
+          days, to the same card or payment method used for the purchase. Your
+          bank or card issuer may take additional time, typically 5–10 business
+          days, to show the funds on your statement. Refunds are made in the
+          currency of the original payment.
+        </p>
+        <p>
+          Consumers retain any rights they have under the legislation of
+          Georgia, including the Law of Georgia on Consumer Rights Protection
+          and the Law of Georgia on Electronic Commerce, and under any other
+          mandatory law that applies to them.
         </p>
       </section>
     </PolicyLayout>

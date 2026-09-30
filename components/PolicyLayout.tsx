@@ -1,7 +1,15 @@
 import { ReactNode } from "react";
 import Link from "next/link";
 import SiteLayout, { PageIntro } from "./SiteLayout";
-import { company, emailHref } from "@content/company";
+import { company, emailHref, phoneHref } from "@content/company";
+
+const policies = [
+  { href: "/legal", text: "Legal Information" },
+  { href: "/terms-of-service", text: "Terms of Service" },
+  { href: "/delivery-policy", text: "Delivery Policy" },
+  { href: "/refund-policy", text: "Refund / Cancellation Policy" },
+  { href: "/privacy-policy", text: "Privacy Policy" },
+];
 
 export default function PolicyLayout({
   title,
@@ -28,31 +36,25 @@ export default function PolicyLayout({
         <aside className="policy-sidebar">
           <p className="eyebrow">Policies</p>
           <nav aria-label="Policy pages">
-            <Link
-              href="/privacy-policy"
-              aria-current={path === "/privacy-policy" ? "page" : undefined}
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              href="/terms-of-service"
-              aria-current={path === "/terms-of-service" ? "page" : undefined}
-            >
-              Terms of Service
-            </Link>
-            <Link
-              href="/refund-policy"
-              aria-current={path === "/refund-policy" ? "page" : undefined}
-            >
-              Refund / Cancellation Policy
-            </Link>
+            {policies.map((policy) => (
+              <Link
+                key={policy.href}
+                href={policy.href}
+                aria-current={path === policy.href ? "page" : undefined}
+              >
+                {policy.text}
+              </Link>
+            ))}
           </nav>
           <p>
             <strong>{company.name}</strong>
             <br />
             Registered in Georgia.
+            <br />
+            ID code {company.identificationCode}
           </p>
           <a href={emailHref()}>{company.email}</a>
+          {company.phone && <a href={phoneHref()}>{company.phone}</a>}
         </aside>
         <article className="prose policy-content">
           {children}

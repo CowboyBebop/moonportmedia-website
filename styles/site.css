@@ -1152,6 +1152,8 @@ svg {
   font-weight: 500;
 }
 .policy-sidebar > a {
+  display: block;
+  width: fit-content;
   text-decoration: underline;
   text-underline-offset: 3px;
 }

@@ -23,7 +23,8 @@ corepack yarn start --listen 4173
 - `/services/` — six service categories and example deliverables
 - `/contact/` — email enquiries, with working mail links and copy control
 - `/memory-books/` — Personalized Memory Books, explicitly coming soon
-- `/privacy-policy/`, `/terms-of-service/`, `/refund-policy/` — company policies
+- `/privacy-policy/`, `/terms-of-service/`, `/refund-policy/`, `/delivery-policy/` — company policies
+- `/legal/` — company identification (ID code), contact, working hours and policy index for the Georgian e-commerce review; linked only from the footer and policy sidebar
 
 Company identity and the existing public contact email are centralised in `content/company.ts`. The owner instructed that the registered address must not be published. No street address is included in public content or structured data.
 

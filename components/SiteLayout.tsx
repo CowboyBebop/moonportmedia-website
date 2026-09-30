@@ -158,6 +158,7 @@ export default function SiteLayout({
             <div className="company-identity">
               <strong>{company.name}</strong>
               <p>Limited liability company registered in Georgia.</p>
+              <p>Identification code {company.identificationCode}</p>
               <p>Digital, creative & business consulting services.</p>
             </div>
             <nav aria-label="Company pages">
@@ -173,6 +174,8 @@ export default function SiteLayout({
               <Link href="/privacy-policy">Privacy Policy</Link>
               <Link href="/terms-of-service">Terms of Service</Link>
               <Link href="/refund-policy">Refund / Cancellation Policy</Link>
+              <Link href="/delivery-policy">Delivery Policy</Link>
+              <Link href="/legal">Legal Information</Link>
             </nav>
           </div>
           <div className="footer-bottom">
