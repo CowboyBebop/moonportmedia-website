@@ -7,11 +7,9 @@ export const company = {
   registrationDate: "15 January 2026",
   registeringAuthority: "LEPL National Agency of Public Registry, Georgia",
   email: "business@moonportmedia.com",
-  // Leave empty until a monitored number is confirmed; pages hide it when blank.
-  phone: "",
-  hours: "Monday to Friday, 10:00–18:00 Georgia time (GMT+4)",
-  responseTime:
-    "Emails received outside working hours are answered on the next working day.",
+  phone: "+90 539 110 11 89",
+  hours: "Monday to Friday, 12:00–18:00 Georgia time (GMT+4)",
+  responseTime: "We reply to messages within 3 business days.",
   country: "Georgia",
   url: "https://moonportmedia.com",
   policyDate: "30 September 2026",

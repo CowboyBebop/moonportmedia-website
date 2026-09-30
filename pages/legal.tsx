@@ -39,8 +39,7 @@ export default function Legal() {
       <section>
         <h2>3. Working hours</h2>
         <p>
-          Customers can contact us {company.hours}. {company.responseTime} We
-          aim to reply to every message within one working day.
+          Customers can contact us {company.hours}. {company.responseTime}
         </p>
         <p>
           Services are provided remotely. Orders and requests can be placed by
